@@ -1,0 +1,26 @@
+{
+    "name": "pocket/wallet",
+    "description": "pocket wallet",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "weixiaochao",
+            "email": "302645122@qq.com"
+        }
+    ],
+    "homepage":"https://github.com/weirongchao/pocket-wallet",
+
+    "require": {
+        "php": "^7.4",
+        "guzzlehttp/guzzle": "^7.2",
+        "psr/http-factory": "^1.0",
+        "psr/http-client": "^1.0",
+        "ext-json": "*",
+        "ext-simplexml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PocketWallet\\": "src/"
+        }
+    }
+}
